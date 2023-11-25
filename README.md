@@ -85,6 +85,70 @@ Web application for the annual Cape Town Festival
     <li>Event Dashboard: Selects a specific event to view detailed metrics.</li>
     <li>Analysis and Reporting: Utilizes the dashboard to analyze trends and make informed decisions.</li>
   </ol>
+  <h2>Database Design</h2>
+
+  <pre>
+    Users Table:
+    - UserID (Primary Key)
+    - Username
+    - Password (hashed + salted)
+    - Role (Administrator or Visitor)
+    - PersonalInfoID (Foreign Key)
+    - Email (encrypted)
+    - Address (encrypted)
+    ...
+
+    PersonalInfo Table:
+    - PersonalInfoID (Primary Key)
+    - UserID (Foreign Key)
+    - FirstName (encrypted)
+    - LastName (encrypted)
+    - Age (encrypted)
+    - Gender (encrypted)
+    ...
+
+    Events Table:
+    - EventID (Primary Key)
+    - Name
+    - Description
+    - CategoryID (Foreign Key)
+    - Start Time
+    - End Time
+    - Attendee Limit
+    - Ratings
+    - Comments
+    ...
+
+    Attendees Table:
+    - AttendeeID (Primary Key)
+    - UserID (Foreign Key)
+    - EventID (Foreign Key)
+    - CheckInTime
+    ...
+
+    Categories Table:
+    - CategoryID (Primary Key)
+    - CategoryName
+    ...
+
+    Ratings Table:
+    - RatingID (Primary Key)
+    - AttendeeID (Foreign Key)
+    - EventID (Foreign Key)
+    - OverallRating
+    - RecommendRating
+    ...
+  </pre>
+
+  <h2>How to Run</h2>
+
+  <p>To start the development server, use the following command:</p>
+
+  <pre>
+    npm start
+  </pre>
+
+  <p>Visit <a href="http://localhost:3000">http://localhost:3000</a> to see the welcome page and navigate to login and sign-up pages.</p>
 
   <h2>File Structure</h2>
 
