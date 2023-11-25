@@ -4,7 +4,6 @@ Web application for the annual Cape Town Festival
 <html>
 
 <head>
-  <title>Festival App README</title>
   
 <body>
 
