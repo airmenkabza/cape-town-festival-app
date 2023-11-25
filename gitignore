@@ -1,0 +1,57 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore environment files
+.env
+
+# Ignore local configuration
+config/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn debug log
+yarn-debug.log*
+
+# Ignore yarn error log
+yarn-error.log*
+
+# Ignore coverage reports
+coverage/
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore logs
+logs/
+
+# Ignore artifacts and build directories
+dist/
+out/
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn lock file
+yarn.lock
+
+# Ignore .vscode folder
+.vscode/
+
+# Ignore IntelliJ project files
+.idea/
+
+# Ignore IDE settings
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Ignore cache directories
+.cache/
+
+# Ignore Jest snapshots directory
+__snapshots__/
