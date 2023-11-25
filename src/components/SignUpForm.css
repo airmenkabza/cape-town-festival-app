@@ -1,0 +1,23 @@
+/* SignUpForm.css */
+form {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  

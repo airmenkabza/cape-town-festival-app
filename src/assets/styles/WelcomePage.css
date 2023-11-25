@@ -1,0 +1,15 @@
+/* WelcomePage.css */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    color: #3498db;
+  }
+  
+  a {
+    color: #2ecc71;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
