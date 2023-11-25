@@ -5,35 +5,7 @@ Web application for the annual Cape Town Festival
 
 <head>
   <title>Festival App README</title>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      line-height: 1.6;
-    }
-
-    h1,
-    h2,
-    h3 {
-      color: #3498db;
-    }
-
-    h2 {
-      border-bottom: 1px solid #3498db;
-      padding-bottom: 5px;
-      margin-bottom: 20px;
-    }
-
-    ol {
-      list-style-type: decimal;
-      margin-left: 20px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-  </style>
-</head>
-
+  
 <body>
 
   <h1>Festival App README</h1>
