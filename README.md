@@ -128,3 +128,10 @@ Web application for the annual Cape Town Festival
 </body>
 
 </html>
+Start the development server.
+bash
+Copy code
+npm start
+Visit http://localhost:3000 to see the welcome page and navigate to login and sign-up pages.
+
+Remember, this is a basic setup, and you can enhance and customize it further based on your project requirements. Additionally, consider incorporating state management, form validation, and more sophisticated styling for a complete user experience.
