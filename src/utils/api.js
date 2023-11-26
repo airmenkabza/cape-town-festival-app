@@ -1,5 +1,5 @@
 // utils/api.js
-const BASE_URL = 'https://api.yourapp.com'; // Replace with your API base URL
+const BASE_URL = 'https://capetownfestival.co.za'; // Replace with your API base URL
 
 const api = {
   async get(endpoint) {
